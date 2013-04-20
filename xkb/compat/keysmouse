@@ -1,0 +1,26 @@
+default partial xkb_compatibility "keysmouse" {
+
+    // Keypad actions.
+    //
+    interpret.repeat= True;
+
+    // Up
+    interpret F20 {
+        action = MovePtr(x=+0,y=-1);
+    };
+
+    // Down
+    interpret F21 {
+        action = MovePtr(x=+0,y=+1);
+    };
+
+    // Left
+    interpret F22 {
+        action = MovePtr(x=-1,y=+0);
+    };
+
+    // Right
+    interpret F23 {
+        action = MovePtr(x=+1,y=+0);
+    };
+};
