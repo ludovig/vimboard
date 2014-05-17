@@ -3,23 +3,24 @@
 // Copyright (c) 2010, 2011 Ludovic Vigouroux <ludo@mundoludo.fr>
 
 partial alphanumeric_keys
-xkb_symbols "vimboard" {
+xkb_symbols "jekalitf" {
 
-    name[Group1]="France - Vimboard (home made keyboard)";
+    name[Group1]="France - Jekalitf (home made keyboard)";
 
-    key <TLDE>	{ [       minus,           plus,             hyphen,             bar      ] };
     key <AE01>	{ [          0,               5,                degree,           rightarrow ] };
     key <AE02>	{ [          1,               6,                    at,               Agrave ] };
     key <AE03>	{ [          2,               7,           twosuperior,              onehalf ] };
     key <AE04>	{ [          3,               8,         threesuperior,             onethird ] };
     key <AE05>	{ [          4,               9,          foursuperior,           onequarter ] };
     key <AE06>	{ [      heart,            club,               diamond,                U2660 ] };
-    key <AE07>  { [      equal,      numbersign,         percent,                  yen ] };
+    key <AE07>	{ [       minus,           plus,             hyphen,             bar      ] };
     key <AE08>	{ [   parenleft,      braceleft,                threesuperior             ] };
     key <AE09>	{ [  parenright,     braceright                     ] };
     key <AE10>	{ [  ampersand,             bar,                Egrave,             EuroSign ] };
-    key <AE11>	{ [ bracketleft,           less,         guillemotleft,        lowleftcorner ] };
-    key <AE12>	{ [bracketright,        greater,     guillemotright,   quoteleft               ] };
+    key <AE11>	{ [      colon,        asterisk,            asciitilde,           Idiaeresis ] };
+    key <AE12>  { [      equal,      numbersign,         percent,                  yen ] };
+    key <BKSL>	{ [ bracketleft,           less,         guillemotleft,        lowleftcorner ] };
+    key <TLDE>	{ [bracketright,        greater,     guillemotright,   quoteleft               ] };
 
     key <AD01>	{ [          f,               F,           Acircumflex,           Adiaeresis ] };
     key <AD02>	{ [          i,               I,           icircumflex,           idiaeresis ] };
@@ -30,10 +31,9 @@ xkb_symbols "vimboard" {
     key <AD07>	{ [          b,               B,                ssharp,        uprightcorner ] };
     key <AD08>	{ [          k,               K,               percent,          ordfeminine ] };
     key <AD09>	{ [          l,               L,             ampersand,                  bar ] };
-    key <AD10>  { [          w,               W,   leftdoublequotemark,              cedilla ] }; // w W « “
-    key <AD11>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
-    key <AD12>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
-
+    key <AD10>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
+    key <AD11>  { [          w,               W,   leftdoublequotemark,              cedilla ] }; // w W « “
+    key <AD12>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
     key <AC01>	{ [          g,               G,           Ecircumflex,           Ediaeresis ] };
     key <AC02>	{ [          c,               C,              ccedilla,             Ccedilla ] };
     key <AC03>	{ [          d,               D,                    oe,                   OE ] };
@@ -44,8 +44,7 @@ xkb_symbols "vimboard" {
     key <AC08>	{ [          n,               N,                ugrave,               Ugrave ] };
     key <AC09>	{ [          r,               R,                   bar,         questiondown ] };
     key <AC10>	{ [          t,               T,                 thorn,                THORN ] };
-    key <AC11>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
-    key <BKSL>	{ [      colon,        asterisk,            asciitilde,           Idiaeresis ] };
+    key <AC11>  { [      slash,        question,             backslash,                  yen ] };
 
     key <LSGT>	{ [      colon,      asciitilde,                    ampersand,   periodcentered ] };
     key <AB01>	{ [          q,               Q,           Acircumflex,           Adiaeresis ] };
@@ -57,7 +56,9 @@ xkb_symbols "vimboard" {
     key <AB07>	{ [          s,               S,                oslash,             Ooblique ] };
     key <AB08>	{ [      comma,     asciicircum,          questiondown                       ] };
     key <AB09>	{ [     period,          exclam,             0x1002026,  leftdoublequotemark ] };
-    key <AB10>  { [      slash,        question,             backslash,                  yen ] };
+    key <AB10>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
+
+    include "level3(alt_switch)"
 
     // mouse keys
     key <NMLK> { [ Num_Lock, Pointer_Button1 ] };
@@ -75,23 +76,5 @@ xkb_symbols "vimboard" {
     // Custom
     key <SPCE>  { [ space, heart, underscore, U202F ] }; // ␣ (espace insécable) _ (espace insécable fin)
     key <RWIN>  { [ Return    ] };
-    key <MENU>  { [           Alt_L,          Meta_L ] };
-    key <RTSH>  { [           Alt_L,          Meta_L ] };
-
-    key <LFSH> {
-	    type[Group1]="ONE_LEVEL",
-		    symbols[Group1] = [ ISO_Level3_Shift ]
-    };
-
-    key <RALT> {	[ Shift_L	]	};
-    key <LALT> {	[ Shift_L	]	};
-
-    // begin modifier mappings
-    // modifier_map Shift  { Alt_L, Alt_R };
-    // modifier_map Lock   { Caps_Lock };
-    // modifier_map Control{ Control_L, Control_R };
-    // modifier_map Mod1	{ Shift_L, Shift_R, Meta_L, Meta_R };
-    // modifier_map Mod2   { Num_Lock };
-    // modifier_map Mod4   { Super_L, Super_R };
-    // modifier_map Mod5   { <LFSH> };
+    //key <MENU>  { [           Alt_L,          Meta_L ] };
 };

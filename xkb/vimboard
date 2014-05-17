@@ -1,5 +1,5 @@
 xkb_keymap {
-        xkb_keycodes  { include "evdev" };
+        xkb_keycodes  { include "evdev+hmk" };
         xkb_types     { include "complete"  };
         xkb_compat    { include "complete+keysmouse" };
         xkb_symbols   { include "pc+vimboard+inet(evdev)+terminate(ctrl_alt_bksp)" };

@@ -1,0 +1,10 @@
+// Invert shift and alt keys
+
+default xkb_keycodes "homemade_keyboard" {
+    include "evdev(evdev)"
+    <LALT> = 50;  // 64;
+    <LFSH> = 64;  // 50;
+
+    <RTSH> = 108; // 62;
+    <RALT> = 62;  // 108;
+};
