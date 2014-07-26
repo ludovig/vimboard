@@ -27,13 +27,14 @@ xkb_symbols "jekalitf" {
     key <AD03>	{ [          a,               A,           acircumflex,           adiaeresis ] };
     key <AD04>	{ [          u,               U,           ucircumflex,           udiaeresis ] };
     key <AD05>	{ [     eacute,          egrave,                Eacute,               Egrave ] };
-    key <AD06>	{ [     agrave,              at,                Agrave,                acute ] };
-    key <AD07>	{ [          b,               B,                ssharp,        uprightcorner ] };
+    key <AD06>	{ [          m,               M,           onesuperior,            masculine ] };
+    key <AD07>	{ [          s,               S,                oslash,             Ooblique ] };
     key <AD08>	{ [          k,               K,               percent,          ordfeminine ] };
     key <AD09>	{ [          l,               L,             ampersand,                  bar ] };
     key <AD10>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
-    key <AD11>  { [          w,               W,   leftdoublequotemark,              cedilla ] }; // w W « “
-    key <AD12>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
+    key <AD11>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
+    key <AD12>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
+
     key <AC01>	{ [          g,               G,           Ecircumflex,           Ediaeresis ] };
     key <AC02>	{ [          c,               C,              ccedilla,             Ccedilla ] };
     key <AC03>	{ [          d,               D,                    oe,                   OE ] };
@@ -52,11 +53,11 @@ xkb_symbols "jekalitf" {
     key <AB03>	{ [          o,               O,           ocircumflex,           odiaeresis ] };
     key <AB04>	{ [          p,               P,             paragraph,            diaeresis ] };
     key <AB05>	{ [          z,               Z,           Ucircumflex,           Udiaeresis ] };
-    key <AB06>	{ [          m,               M,           onesuperior,            masculine ] };
-    key <AB07>	{ [          s,               S,                oslash,             Ooblique ] };
+    key <AB06>	{ [          b,               B,                ssharp,        uprightcorner ] };
+    key <AB07>  { [          w,               W,   leftdoublequotemark,              cedilla ] }; // w W « “
     key <AB08>	{ [      comma,     asciicircum,          questiondown                       ] };
     key <AB09>	{ [     period,          exclam,             0x1002026,  leftdoublequotemark ] };
-    key <AB10>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
+    key <AB10>	{ [     agrave,              at,                Agrave,                acute ] };
 
     include "level3(alt_switch)"
 
