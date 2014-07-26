@@ -27,13 +27,13 @@ xkb_symbols "jekalitf" {
     key <AD03>	{ [          a,               A,           acircumflex,           adiaeresis ] };
     key <AD04>	{ [          u,               U,           ucircumflex,           udiaeresis ] };
     key <AD05>	{ [     eacute,          egrave,                Eacute,               Egrave ] };
-    key <AD06>	{ [          m,               M,           onesuperior,            masculine ] };
+    key <AD06>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
     key <AD07>	{ [          s,               S,                oslash,             Ooblique ] };
     key <AD08>	{ [          k,               K,               percent,          ordfeminine ] };
     key <AD09>	{ [          l,               L,             ampersand,                  bar ] };
-    key <AD10>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
-    key <AD11>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
-    key <AD12>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
+    key <AD10>	{ [          m,               M,           onesuperior,            masculine ] };
+    key <AD11>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
+    key <AD12>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
 
     key <AC01>	{ [          g,               G,           Ecircumflex,           Ediaeresis ] };
     key <AC02>	{ [          c,               C,              ccedilla,             Ccedilla ] };
