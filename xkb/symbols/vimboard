@@ -22,13 +22,13 @@ xkb_symbols "jekalitf" {
     key <BKSL>	{ [ bracketleft,           less,         guillemotleft,        lowleftcorner ] };
     key <TLDE>	{ [bracketright,        greater,     guillemotright,   quoteleft               ] };
 
-    key <AD01>	{ [          f,               F,           Acircumflex,           Adiaeresis ] };
-    key <AD02>	{ [          i,               I,           icircumflex,           idiaeresis ] };
-    key <AD03>	{ [          a,               A,           acircumflex,           adiaeresis ] };
+    key <AD01>	{ [          i,               I,           icircumflex,           idiaeresis ] };
+    key <AD02>	{ [          a,               A,           acircumflex,           adiaeresis ] };
+    key <AD03>	{ [          s,               S,                oslash,             Ooblique ] };
     key <AD04>	{ [          u,               U,           ucircumflex,           udiaeresis ] };
     key <AD05>	{ [     eacute,          egrave,                Eacute,               Egrave ] };
     key <AD06>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
-    key <AD07>	{ [          s,               S,                oslash,             Ooblique ] };
+    key <AD07>	{ [          f,               F,           Acircumflex,           Adiaeresis ] };
     key <AD08>	{ [          k,               K,               percent,          ordfeminine ] };
     key <AD09>	{ [          l,               L,             ampersand,                  bar ] };
     key <AD10>	{ [          m,               M,           onesuperior,            masculine ] };
