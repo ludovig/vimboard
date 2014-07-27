@@ -7,20 +7,20 @@ xkb_symbols "jekalitf" {
 
     name[Group1]="France - Jekalitf (home made keyboard)";
 
-    key <AE01>	{ [          0,               5,                degree,           rightarrow ] };
-    key <AE02>	{ [          1,               6,                    at,               Agrave ] };
-    key <AE03>	{ [          2,               7,           twosuperior,              onehalf ] };
-    key <AE04>	{ [          3,               8,         threesuperior,             onethird ] };
-    key <AE05>	{ [          4,               9,          foursuperior,           onequarter ] };
+    key <AE01>	{ [       minus,           plus,             hyphen,             bar      ] };
+    key <AE02>	{ [ bracketleft,           less,         guillemotleft,        lowleftcorner ] };
+    key <AE03>	{ [   parenleft,      braceleft,                threesuperior             ] };
+    key <AE04>	{ [  parenright,     braceright                     ] };
+    key <AE05>	{ [bracketright,        greater,     guillemotright,   quoteleft               ] };
     key <AE06>	{ [      heart,            club,               diamond,                U2660 ] };
-    key <AE07>	{ [       minus,           plus,             hyphen,             bar      ] };
-    key <AE08>	{ [   parenleft,      braceleft,                threesuperior             ] };
-    key <AE09>	{ [  parenright,     braceright                     ] };
-    key <AE10>	{ [  ampersand,             bar,                Egrave,             EuroSign ] };
-    key <AE11>	{ [      colon,        asterisk,            asciitilde,           Idiaeresis ] };
-    key <AE12>  { [      equal,      numbersign,         percent,                  yen ] };
-    key <BKSL>	{ [ bracketleft,           less,         guillemotleft,        lowleftcorner ] };
-    key <TLDE>	{ [bracketright,        greater,     guillemotright,   quoteleft               ] };
+    key <AE07>	{ [          1,               6,                    at,               Agrave ] };
+    key <AE08>	{ [          2,               7,           twosuperior,              onehalf ] };
+    key <AE09>	{ [          3,               8,         threesuperior,             onethird ] };
+    key <AE10>	{ [          4,               9,          foursuperior,           onequarter ] };
+    key <AE11>	{ [          0,               5,                degree,           rightarrow ] };
+    key <AE12>	{ [      colon,        asterisk,            asciitilde,           Idiaeresis ] };
+    key <BKSL>  { [      equal,      numbersign,         percent,                  yen ] };
+    key <TLDE>	{ [  ampersand,             bar,                Egrave,             EuroSign ] };
 
     key <AD01>	{ [          i,               I,           icircumflex,           idiaeresis ] };
     key <AD02>	{ [          a,               A,           acircumflex,           adiaeresis ] };
