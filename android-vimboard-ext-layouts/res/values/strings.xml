@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name of the application. [CHAR LIMIT=35] -->
+    <string name="app_label">Vimboard Layouts - Ext. Keyboards</string>
+
+    <!-- Keyboard layouts label, used to describe the set of all built-in layouts in the UI. [CHAR LIMIT=35] -->
+    <string name="keyboard_layouts_label">Vimboard Layouts by ludovig</string>
+
+    <!-- Lithuanian  keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_vimboard_label">Vimboard</string>
+    
+    <!-- Lithuanian  keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_diy_perixx_label">Vimboard (Folding Bluetooth Keyboard)</string>
+</resources>
