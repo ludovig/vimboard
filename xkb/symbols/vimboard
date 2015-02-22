@@ -7,19 +7,19 @@ xkb_symbols "jekalitf" {
 
     name[Group1]="France - Jekalitf (home made keyboard)";
 
-    key <AE01>	{ [          0,               5,                degree,           rightarrow ] };
-    key <AE02>	{ [          4,               9,          foursuperior,           onequarter ] };
-    key <AE03>	{ [          3,               8,         threesuperior,             onethird ] };
-    key <AE04>	{ [          2,               7,           twosuperior,              onehalf ] };
-    key <AE05>	{ [          1,               6,                    at,               Agrave ] };
+    key <AE01>	{ [      colon,        equal,            asciitilde,           Idiaeresis ] };
+    key <AE02>	{ [ bracketleft,        less,         guillemotleft,        lowleftcorner ] };
+    key <AE03>	{ [   parenleft,      braceleft,         threesuperior ] };
+    key <AE04>	{ [  parenright,     braceright ] };
+    key <AE05>	{ [bracketright,        greater,        guillemotright,            quoteleft ] };
     key <AE06>	{ [      heart,            club,               diamond,                U2660 ] };
-    key <AE07>	{ [ bracketleft,           less,         guillemotleft,        lowleftcorner ] };
-    key <AE08>	{ [   parenleft,      braceleft,         threesuperior ] };
-    key <AE09>	{ [  parenright,     braceright ] };
-    key <AE10>	{ [bracketright,        greater,        guillemotright,            quoteleft ] };
-    key <AE11>	{ [      colon,        asterisk,            asciitilde,           Idiaeresis ] };
-    key <AE12>	{ [       minus,     numbersign,                hyphen,                  bar ] };
-    key <BKSL>  { [      equal,            plus,               percent,                  yen ] };
+    key <AE07>	{ [          1,               6,                    at,               Agrave ] };
+    key <AE08>	{ [          2,               7,           twosuperior,              onehalf ] };
+    key <AE09>	{ [          3,               8,         threesuperior,             onethird ] };
+    key <AE10>	{ [          4,               9,          foursuperior,           onequarter ] };
+    key <AE11>	{ [          0,               5,                degree,           rightarrow ] };
+    key <AE12>	{ [       minus,     plus,                hyphen,                  bar ] };
+    key <BKSL>  { [      asterisk,   numbersign,               percent,                  yen ] };
     key <TLDE>	{ [  ampersand,             bar,                Egrave,             EuroSign ] };
 
     key <AD01>	{ [          i,               I,           icircumflex,           idiaeresis ] };
@@ -27,15 +27,15 @@ xkb_symbols "jekalitf" {
     key <AD03>	{ [          s,               S,                oslash,             Ooblique ] };
     key <AD04>	{ [          u,               U,           ucircumflex,           udiaeresis ] };
     key <AD05>	{ [     eacute,          egrave,                Eacute,               Egrave ] };
-    key <AD06>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
+    key <AD06>	{ [          b,               B,                ssharp,        uprightcorner ] };
     key <AD07>	{ [          f,               F,           Acircumflex,           Adiaeresis ] };
     key <AD08>	{ [          k,               K,               percent,          ordfeminine ] };
     key <AD09>	{ [          l,               L,             ampersand,                  bar ] };
-    key <AD10>	{ [          m,               M,           onesuperior,            masculine ] };
-    key <AD11>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
+    key <AD10>  { [          w,               W,   leftdoublequotemark,              cedilla ] }; // w W « “
+    key <AD11>	{ [ apostrophe,        quotedbl,  rightsinglequotemark,           rightarrow ] };
     key <AD12>	{ [  semicolon,          dollar,                ugrave,               Ugrave ] };
 
-    key <AC01>	{ [          g,               G,           Ecircumflex,           Ediaeresis ] };
+    key <AC01>  { [          x,               X,  rightdoublequotemark,       Greek_horizbar ] }; // x X » ”
     key <AC02>	{ [          c,               C,              ccedilla,             Ccedilla ] };
     key <AC03>	{ [          d,               D,                    oe,                   OE ] };
     key <AC04>	{ [          e,               E,           ecircumflex,           ediaeresis ] };
@@ -53,8 +53,8 @@ xkb_symbols "jekalitf" {
     key <AB03>	{ [          o,               O,           ocircumflex,           odiaeresis ] };
     key <AB04>	{ [          p,               P,             paragraph,            diaeresis ] };
     key <AB05>	{ [          z,               Z,           Ucircumflex,           Udiaeresis ] };
-    key <AB06>	{ [          b,               B,                ssharp,        uprightcorner ] };
-    key <AB07>  { [          w,               W,   leftdoublequotemark,              cedilla ] }; // w W « “
+    key <AB06>	{ [          g,               G,           Ecircumflex,           Ediaeresis ] };
+    key <AB07>	{ [          m,               M,           onesuperior,            masculine ] };
     key <AB08>	{ [      comma,     asciicircum,          questiondown                       ] };
     key <AB09>	{ [     period,          exclam,             0x1002026,  leftdoublequotemark ] };
     key <AB10>	{ [     agrave,              at,                Agrave,                acute ] };
