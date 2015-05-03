@@ -18,32 +18,32 @@
 
 type OVERLAY
 
-map key 41 0
-map key 2  4
-map key 3  3
-map key 4  2
-map key 5  1
+map key 41 GRAVE
+map key 2  LEFT_BRACKET
+map key 3  NUMPAD_LEFT_PAREN
+map key 4  NUMPAD_RIGHT_PAREN
+map key 5  RIGHT_BRACKET
 map key 6  KANA
-map key 7  LEFT_BRACKET
-map key 8  NUMPAD_LEFT_PAREN
-map key 9  NUMPAD_RIGHT_PAREN
-map key 10 RIGHT_BRACKET
-map key 11 GRAVE
+map key 7  1
+map key 8  2
+map key 9  3
+map key 10 4
+map key 11 0
 
 map key 16 I
 map key 17 A
 map key 18 S
 map key 19 U
 map key 20 KANA
-map key 21 APOSTROPHE
+map key 21 B
 map key 22 F
 map key 23 K
 map key 24 L
-map key 25 M
-map key 26 X
+map key 25 W
+map key 26 APOSTROPHE
 map key 27 SEMICOLON
 
-map key 30 G
+map key 30 X
 map key 31 C
 map key 32 D
 map key 33 E
@@ -58,8 +58,8 @@ map key 45 Y
 map key 46 O
 map key 47 P
 map key 48 Z
-map key 49 B
-map key 50 W
+map key 49 G
+map key 50 M
 map key 53 AT
 
 map key 59 5
