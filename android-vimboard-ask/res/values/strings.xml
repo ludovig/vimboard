@@ -3,4 +3,5 @@
     <string name="app_name">SSH for AnySoftKeyboard</string>
     <string name="keyboard">SSH</string>
     <string name="dictionary">SSH</string>
+    <string name="french_dictionary">French</string> 
 </resources>

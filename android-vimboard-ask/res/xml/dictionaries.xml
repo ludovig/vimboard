@@ -9,10 +9,9 @@
 	description := some text you would like to add.
 	 -->
 	<Dictionary 
-		id="644cb75a-82c3-46ca-9521-00fcf4682a2b" 
-		locale="xx"
-		nameResId="@string/dictionary" 
-		type="binary" 
-		dictionaryAssertName="ssh_dict.mp3" 
-		description="List of most frequenct linux terminal commands"/>
+		nameResId="@string/french_dictionary" 
+		locale="fr" id="eea85d27-40be-46ff-81b1-39bffa2897ee" 
+		type="binary_resource" 
+		dictionaryResourceId="@array/fr_xlarge_dict_array" 
+		description="Very Large French dictionary"/>
 </Dictionaries>

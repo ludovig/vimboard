@@ -19,7 +19,7 @@
 	layoutResId="@xml/ssh_qwerty"
 	landscapeResId="@xml/ssh_qwerty"
 	iconResId="@drawable/ssh"
-	defaultDictionaryLocale="en" 
+	defaultDictionaryLocale="fr" 
 	description="SSH keyboard created by Pedram Hayati (Pi3cH)"
 	index="1"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
