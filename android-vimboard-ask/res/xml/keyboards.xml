@@ -16,11 +16,11 @@
 	<Keyboard 
 	id="6afa05d1-9934-400f-a5ef-24534036096" 
 	nameResId="@string/keyboard"
-	layoutResId="@xml/ssh_qwerty"
-	landscapeResId="@xml/ssh_qwerty"
+	layoutResId="@xml/vimboard"
+	landscapeResId="@xml/vimboard"
 	iconResId="@drawable/ssh"
 	defaultDictionaryLocale="fr" 
-	description="SSH keyboard created by Pedram Hayati (Pi3cH)"
+	description="Vimboard keyboard by ludo"
 	index="1"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
 </Keyboards>
