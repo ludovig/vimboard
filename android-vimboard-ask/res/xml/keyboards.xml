@@ -14,7 +14,7 @@
 	* are optional.
 	 -->
 	<Keyboard 
-	id="6afa05d1-9934-400f-a5ef-24534036096" 
+	id="7afa05d1-9934-400f-a5ef-24534036096" 
 	nameResId="@string/keyboard"
 	layoutResId="@xml/vimboard"
 	landscapeResId="@xml/vimboard"
