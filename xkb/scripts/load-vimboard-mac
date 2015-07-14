@@ -1,0 +1,1 @@
+xkbcomp -w 0 -R/usr/share/X11/xkb -I/$HOME/.xkb/ $HOME/.xkb/vimboard-mac $DISPLAY

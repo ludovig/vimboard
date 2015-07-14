@@ -1,11 +1,11 @@
 // $XKeyboardConfig$
 
-// Copyright (c) 2010, 2011 Ludovic Vigouroux <ludo@mundoludo.fr>
+// Copyright (c) 2010, 2015 Ludovic Vigouroux <ludo@mundoludo.fr>
 
 partial alphanumeric_keys
 xkb_symbols "jekalitf" {
 
-    name[Group1]="France - Jekalitf (home made keyboard)";
+    name[Group1]="France - Vimboard (home made keyboard)";
 
     key <AE01>	{ [      colon,        equal,            asciitilde,           Idiaeresis ] };
     key <AE02>	{ [ bracketleft,        less,         guillemotleft,        lowleftcorner ] };
@@ -20,6 +20,7 @@ xkb_symbols "jekalitf" {
     key <AE11>	{ [          0,               5,                degree,           rightarrow ] };
     key <AE12>	{ [       minus,     plus,                hyphen,                  bar ] };
     key <BKSL>  { [      asterisk,   numbersign,               percent,                  yen ] };
+    key <LSGT>	{ [  ampersand,             bar,                Egrave,             EuroSign ] };
     key <TLDE>	{ [  ampersand,             bar,                Egrave,             EuroSign ] };
 
     key <AD01>	{ [          i,               I,           icircumflex,           idiaeresis ] };
@@ -47,7 +48,6 @@ xkb_symbols "jekalitf" {
     key <AC10>	{ [          t,               T,                 thorn,                THORN ] };
     key <AC11>  { [      slash,        question,             backslash,                  yen ] };
 
-    key <LSGT>	{ [      colon,      asciitilde,                    ampersand,   periodcentered ] };
     key <AB01>	{ [          q,               Q,           Acircumflex,           Adiaeresis ] };
     key <AB02>	{ [          y,               Y,           Ocircumflex,           Odiaeresis ] };
     key <AB03>	{ [          o,               O,           ocircumflex,           odiaeresis ] };
