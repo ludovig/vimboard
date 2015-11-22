@@ -1,11 +1,5 @@
-default xkb_keycodes "homemade_keyboard_mac" {
-    include "evdev(evdev)"
-    <LALT> = 50;  // 64;
-    <LFSH> = 64;  // 50;
-
-    <RTSH> = 108; // 62;
-    <RALT> = 62;  // 108;
-
+default xkb_keycodes "homemade_keyboard_topre" {
+    include "hmk(homemade_keyboard)"
     <ESC> = 49; // 9;
     <LSGT> = 94; // 94;
     <TLDE> = 9; // 49;
@@ -13,6 +7,6 @@ default xkb_keycodes "homemade_keyboard_mac" {
     <CAPS> = 37; // 37;
     <LCTL> = 66; // 37;
 
-	<BKSP> = 51; //22;
-	<BKSL> = 22; //51;
+    <BKSP> = 51; //22;
+    <BKSL> = 22; //51;
 };

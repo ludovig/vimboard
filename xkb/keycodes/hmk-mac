@@ -1,17 +1,8 @@
 default xkb_keycodes "homemade_keyboard_mac" {
-    include "evdev(evdev)"
-    <LALT> = 50;  // 64;
+    include "hmk-topre(homemade_keyboard_topre)"
     <LFSH> = 133;  // 50;
     <LWIN> = 64;  // 133;
 
     <RTSH> = 134; // 62;
-    <RALT> = 62;  // 108;
     <RWIN> = 108;  // 134;
-
-    <ESC> = 49; // 9;
-    <LSGT> = 94; // 94;
-    <TLDE> = 9; // 49;
-
-    <CAPS> = 37; // 37;
-    <LCTL> = 66; // 37;
 };
