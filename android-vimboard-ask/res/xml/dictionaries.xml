@@ -12,6 +12,6 @@
 		nameResId="@string/dictionary" 
 		locale="fr" id="eea85d27-40be-46ff-81b1-39bffa2897ee" 
 		type="binary_resource" 
-		dictionaryResourceId="vimboard.mp3" 
+		dictionaryAssertName="vimboard.mp3" 
 		description="Very Large French dictionary"/>
 </Dictionaries>

@@ -2,6 +2,5 @@
 <resources>
     <string name="app_name">Vimboard for AnySoftKeyboard</string>
     <string name="keyboard">vimboard</string>
-    <string name="french_dictionary">French</string> 
     <string name="dictionary">Fr-En Dictionnary</string> 
 </resources>
