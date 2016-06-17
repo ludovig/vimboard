@@ -1,0 +1,6 @@
+# Fr dict download from issue below:
+https://github.com/AnySoftKeyboard/LanguagePack/issues/12
+# En dict from:
+https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/master/english_dictionary/words_merged.xml
+# SSh dict from:
+https://github.com/pi3ch/ssh_anysoftkeyboard/blob/master/res/xml/ssh_dict.xml
