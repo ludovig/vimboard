@@ -42,7 +42,7 @@
         <Key android:codes="112" android:keyLabel="p" android:popupCharacters="_ "/>
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters=":~^"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters=".…"/>
-        <Key android:codes="109" android:keyLabel="m" android:popupCharacters=",!"/>
+        <Key android:codes="109" android:keyLabel="m" android:popupCharacters="!"/>
         <Key android:keyWidth="15%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
