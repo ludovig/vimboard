@@ -51,11 +51,10 @@
        	<Key android:codes="-21" android:keyIcon="@drawable/arrow_right" android:isRepeatable="true"/>
        	key codes:  http://www.rishida.net/tools/conversion/
        	-->
-       	<Key android:codes="-11" android:keyLabel="Ctrl" android:keyEdgeFlags="left" android:isModifier="true"/>
+       	<Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:isModifier="true"/>
        	<Key android:codes="-22" android:keyIcon="@drawable/arrow_up"/>
        	<Key android:codes="-23" android:keyIcon="@drawable/arrow_down"/>
-		<Key android:codes="-1"
-			android:isModifier="true" android:isSticky="true"/>
+        <Key android:codes="-11" android:keyLabel="Ctrl"/>
         <Key android:codes="32,21,8217" android:keyWidth="25%p"/>7
         <Key android:codes="9" android:keyIcon="@drawable/sym_keyboard_tab" />
         <Key android:codes="44,46,47" android:keyLabel="," android:popupCharacters="/\?\\" />
