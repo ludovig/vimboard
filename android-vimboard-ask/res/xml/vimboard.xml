@@ -38,7 +38,7 @@
         <Key android:codes="27" android:keyLabel="Esc" android:keyEdgeFlags="left" android:keyWidth="15%p"/>
         <Key android:codes="113" android:keyLabel="q" android:popupCharacters=""/>
         <Key android:codes="121" android:keyLabel="y" android:popupCharacters=""/>
-        <Key android:codes="111,339,244" android:keyLabel="o" android:popupCharacters="œ"/>
+        <Key android:codes="111" android:keyLabel="o" android:popupCharacters="ôœ"/>
         <Key android:codes="112" android:keyLabel="p" android:popupCharacters="_ "/>
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters=":~^"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters=".…"/>
