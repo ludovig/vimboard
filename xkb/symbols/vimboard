@@ -62,7 +62,7 @@ xkb_symbols "jekalitf" {
     include "level3(alt_switch)"
 
     // mouse keys
-    key <NMLK> { [ Num_Lock, Pointer_Button1 ] };
+    key <NMLK> { [ Alt_L, Meta_L ] };
     key <HOME> { [ F20 ] };
     key <END>  { [ F21 ] };
     key <DELE> { [ F22 ] };
