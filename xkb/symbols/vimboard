@@ -59,7 +59,7 @@ xkb_symbols "jekalitf" {
     key <AB09>	{ [     period,          exclam,             0x1002026,  leftdoublequotemark ] };
     key <AB10>	{ [     agrave,              at,                Agrave,                acute ] };
 
-    include "level3(lalt_switch)"
+    include "level3(alt_switch)"
 
     // mouse keys
     key <NMLK> { [ Alt_L, Meta_L ] };
@@ -78,4 +78,5 @@ xkb_symbols "jekalitf" {
     key <SPCE>  { [ space, heart, underscore, U202F ] }; // ␣ (espace insécable) _ (espace insécable fin)
     //key <RWIN>  { [ Return    ] };
     //key <MENU>  { [           Alt_L,          Meta_L ] };
+    key <RWIN> {[  Alt_R,  Meta_R  ], type[group1]="TWO_LEVEL" };
 };
