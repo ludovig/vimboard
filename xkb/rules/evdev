@@ -1,0 +1,7 @@
+! model		layout		variant	=	symbols
+  *		vimboard	basic   =	pc+vimboard(basic)
+
+! option                =       symbols
+vimboard:basic          =       +vimboard(basic)
+
+! include %S/evdev

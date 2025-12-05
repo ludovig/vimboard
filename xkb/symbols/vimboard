@@ -3,9 +3,9 @@
 // Copyright (c) 2010, 2015 Ludovic Vigouroux <ludo@mundoludo.fr>
 
 partial alphanumeric_keys
-xkb_symbols "jekalitf" {
+xkb_symbols "basic" {
 
-    name[Group1]="France - Vimboard (home made keyboard)";
+    name[Group1]="Vimboard (custom french keymap optimised for vim usage)";
 
     key <AE01>	{ [      colon,        equal,            asciitilde,           Idiaeresis ] };
     key <AE02>	{ [ bracketleft,        less,         guillemotleft,        lowleftcorner ] };
