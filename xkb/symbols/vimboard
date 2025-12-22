@@ -1,9 +1,9 @@
 // $XKeyboardConfig$
 
-// Copyright (c) 2010, 2015 Ludovic Vigouroux <ludo@mundoludo.fr>
+// Copyright (c) 2010, 2015, 2025 Ludovic Vigouroux <ludo@mundoludo.fr>
 
 partial alphanumeric_keys
-xkb_symbols "basic" {
+xkb_symbols "french" {
 
     name[Group1]="Vimboard (custom french keymap optimised for vim usage)";
 

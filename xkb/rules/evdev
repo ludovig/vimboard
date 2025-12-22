@@ -1,7 +1,7 @@
-! model		layout		variant	=	symbols
-  *		vimboard	basic   =	pc+vimboard(basic)
+! model		=	keycodes
+  custom	=	custom
 
-! option                =       symbols
-vimboard:basic          =       +vimboard(basic)
+! model		=	geometry
+  custom	=	hhk(basic)
 
 ! include %S/evdev
